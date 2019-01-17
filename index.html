@@ -1,125 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
-    <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="xidth=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>bxslider</title>
+<link rel="stylesheet" href="bxslider-4-4.2.12/src/css/jquery.bxslider.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"> 
+	</script>
+<script>
+	$(function(){
+		$("#frontpage-slider").bxSlider({auto:true,slideWidth:640,mode:'fade',speed:1000,});
+	});
+	</script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-  <style>
-	  .color1{background-color: #FAB3B3}
-	  .color2{background-color: #F4EEC5}
-	  .color3{background-color: #BCCDF1}
-	
-	  </style>
-  </head>
-  <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="#">Brand</a></div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="defaultNavbar1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
-          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
-<div class="container-fluid">
-  
-  <div class="jumbotron">
-   <h1 class="text-center">私のポートフォリオ</h1>
-    <h1>Hello, world!</h1>
-    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-  </div>
-  
-  </div>
-	<div class="container">
-		<div class="row"> 
-		  <div class="col-sm-5 "><p>　東北芸術工科大学　文芸学科　大川律子<br>
-		  高校の時に授業で習った中国語に興味を持ち、中国が好きになる。以後独学。</p></div>
-		  <div class="col-sm-2 "></div>
-		  <div class="col-sm-5 "><p>北京駅周辺のビルとレストラン<img src="photo/北京　ビル.jpg" class="img-responsive" alt="Placeholder image"></p></div>
-	  </div>
-	  
-	  <hr>
-	  
-	  <div class="row">
-<div class="col-sm-5 ">
-  <p>北京の貸し自転車<img src="photo/北京　自転車.jpg" class="img-circle img-responsive" alt="Placeholder image"></p></div> <div class="col-sm-2 ">　
+<body>
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 </div>
-	    <div class="col-sm-5 "><p>高校の修学旅行の台湾では、現地の高校との交流会で挨拶を務める。
 
-</p></div>
-	  </div>
-	  
-	  
-	  
-	  <hr>
-	  
-	  <div class="row"> 
-		  <div class="col-sm-5 "><p>　2018年8月、初めて念願の中国旅行を果たす。目的地は友人の住む威海。
-</p></div>
-	    <div class="col-sm-2 "></div>
-		  <div class="col-sm-5 "><p>北京駅近くの建物<img src="photo/北京　家.jpg" class="img-rounded img-responsive" alt="Placeholder image"></p>
-		  </div>
-	  </div>
-		
-  </div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-1.11.3.min.js"></script>
-
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<ul class="nav nav-pills">
-	  <li role="presentation" class="active"><a href="#">Pill 1</a></li>
-	  <li role="presentation"><a href="#">Pill 2</a></li>
-	  <li role="presentation"><a href="#">Pill 3</a></li>
-	  <li class="disabled"><a href="#">Disabled pill</a></li>
-  </ul>
-<script src="js/bootstrap.js"></script>
-  </body>
+<div id="slider">
+<ul class="aviaslider" id="frontpage-slider">
+<li id="slider1"><img src="photo/weihai house.jpg" alt="slider1"></li>
+<li id="slider2"><img src="photo/weihai station.jpg" alt="slider2"></li>
+<li id="slider3"><img src="photo/weihai nature.jpg" alt="slider3"></li>
+</ul>
+				</div>
+				
+				
+				<h1>威海</h1>
+				<br>
+				<h3>地理情報</h3>
+			<p>中華人民共和国山東省最東部に位置する市。ウェイハイ。総面積5,436 km²</p>
+			<p>旧イギリス領でかつては威海衛といった。</p>
+		<br>
+			
+			<h3>旅行</h3>
+<p>私が訪れたのは８月の下旬。威海の南海新区。気温は30度に届かないくらいで過ごしやすい時期だった。香港経由で北京に飛行機で行き、そこから列車で十数時間かけて行く、というものすごく遠回りをしたが、それはそれで中国の日常を垣間見ることができ、とても面白かった。</p>
+<p>威海でも私はいわゆる観光地には行かなかった。友人の家にホームステイをし、近所のスーパーマーケットや海に遊びに行った。スーパーマーケットはまず日本とは違う買い方に驚いた。基本的に量り売りのため、レジに持って行く前にそのコーナーごとで量り値段を出してもらい、最終的にレジに持って行く、という形をとる。</p>
+<p>日常生活の中では、まず食に異文化を感じた。中国の北のほうは麦の文化だ。したがって米はあまり食さない。麺やマントウ、包子、水餃子はとても美味しかったが、私は一週間の滞在中、米が恋しくて恋しくて友人に頼んで米を炊いてもらった。次に驚いたのはお風呂。シャワールームと言うのだろうか、その空間には洗面台とトイレとシャワーがあったが浴槽はなく、シャワー真下の床に穴が開いており、また壁にモップがぶら下がっていた。どう使うのかわからず、とりあえずシャワーを浴びたのち床をモップで拭いておいた。</p>
+<p>また、中国では車は右側通行である。友人宅から海に行く際に、スクーターの後ろに乗せてもらって行ったのだが、これが怖かった。右側を、ヘルメットなしで、スクーターを飛ばすということは当たり前の行為なのかもしれないが、無意識的に左側通行が当たり前だと思っていた私にとって、死ぬかもしれないくらいの恐怖体験だった。海には20分ほどで着いた。</p>
+<p>一週間という時間は短く、また観光地などにも行かなかったためにあまり写真は撮らなかった。しかし、ツアーなどでは体験することができないような「日常」をた体験することができた。</p>		
+			
+			<br>
+			
+	
+			
+<form action="result.php" method="post">
+  <p>
+    <textarea name="text" cols="60" rows="4">
+      テキストを入力してください。
+    </textarea>
+  </p>
+  <p>
+    <input type="submit" value="送信">
+  </p>
+</form>
+	
+	
+</body>
 </html>
